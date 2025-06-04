@@ -9,7 +9,7 @@ form.addEventListener("submit", function (e) {
 
   emailjs.sendForm("service_oo2kkvn", "TU_TEMPLATE_ID", this)
     .then(function () {
-      estado.textContent = "Mensaje enviado con éxito 🎉";
+      estado.textContent = "Mensaje enviado con éxito";
       estado.style.color = "limegreen";
       form.reset();
     }, function (error) {
